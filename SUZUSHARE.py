@@ -12,4 +12,4 @@ if bit == '64bit':
  import SHARE
 elif bit == '32bit':
  import SHARE2_32
-
+ 
