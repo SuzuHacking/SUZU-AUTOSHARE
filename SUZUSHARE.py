@@ -5,10 +5,11 @@ try:
 except:os.system("pip uninstall requests -y;pip install requests")
  
 
-os.system('xdg-open https://www.facebook.com/100080616663558')
+os.system('xdg-open https://youtube.com/@mrmahin248')
 os.system('git pull')
 bit = platform.architecture()[0]
-
+if bit == '64bit':
+ import SHARE
 elif bit == '32bit':
- import SHARE2_32
+ import SHARE_32
  
